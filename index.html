@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+    <title>京东-首页</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--布局容器-->
+<div class="jd_layout">
+    <!--搜索栏-->
+    <header class="jd_header">
+        <div class="jd_header_box">
+            <a href="#" class="icon_logo"></a>
+            <form action="">
+                <span class="icon_search"></span>
+                <input type="search" placeholder="YNU software college csq"/>
+            </form>
+            <a  class="login">登录</a>
+        </div>
+    </header>
+
+
+    <!--头部图-->
+    <div class="jd_banner">
+       <img src="images/index_background.png" alt="">
+    </div>
+
+
+    <!--导航栏-->
+    <nav class="jd_nav">
+        <ul class="clearfix">
+            <li>
+                <a href="">
+                    <img src="images/navi1.png" alt=""/>
+                    <p>京东超市</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi2.png" alt=""/>
+                    <p>数码电器</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi3.png" alt=""/>
+                    <p>京东服饰</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi4.png" alt=""/>
+                    <p>京东生鲜</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi5.png" alt=""/>
+                    <p>充值缴费</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi6.png" alt=""/>
+                    <p>物流查询</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi7.png" alt=""/>
+                    <p>领券</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/navi8.png" alt=""/>
+                    <p>PULS会员</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!--产品区块-->
+    <main class="jd_main">
+        <section class="jd_product">
+            <div class="jd_product_tit no_border">
+                <div class="f_left">
+                    <!-- second kill 秒杀 -->
+                  <span class="seck_icon"></span>
+                    <span class="sk_word">1111 京东秒杀  0点场</span>
+                    <span class="sk_time">
+                            <span>2</span>
+                            <span>3</span>
+                            <span>:</span>
+                            <span>5</span>
+                            <span>9</span>
+                            <span>:</span>
+                            <span>5</span>
+                            <span>9</span>
+                        </span>
+                </div>
+                <!-- > 实体 &gt;  转义 \-->
+                <div class="f_right"><a class="m_r10" href="#">更多&gt;</a></div>
+            </div>
+            <div class="jd_product_con">
+                <ul class="sk_product clearfix">
+                    <li>
+                        <a href=""><img src="images/seck1.png" alt=""/></a>
+                        <p class="nowPrice">&yen;4599.00</p>
+                        <p class="oldPrice">&yen;4999.00</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/seck2.png" alt=""/></a>
+                        <p class="nowPrice">&yen;3999.00</p>
+                        <p class="oldPrice">&yen;4399.00</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/seck3.png" alt=""/></a>
+                        <p class="nowPrice">&yen;3499.00</p>
+                        <p class="oldPrice">&yen;4399.99</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="jd_product">
+            <div class="jd_product_tit"><h3>京东超市</h3></div>
+            <div class="jd_product_con clearfix">
+                <a class="w_50 b_right f_left" href="#"><img src="images/JD_supmaket.png" alt=""/></a>
+                <a class="w_50 b_bottom f_right" href="#"><img src="images/JD_supmaket1.png" alt=""/></a>
+                <a class="w_50 f_right" href="#"><img src="images/JD_supmaket2.png" alt=""/></a>
+            </div>
+        </section>
+        <section class="jd_product">
+            <div class="jd_product_tit"><h3>京东自造</h3></div>
+            <div class="jd_product_con clearfix">
+                <a class="w_50 b_left f_right" href="#"><img src="images/JD_selfproduct.png" alt=""/></a>
+                <a class="w_50 b_bottom f_left" href="#"><img src="images/JD_selfproduct1.png" alt=""/></a>
+                <a class="w_50 f_left" href="#"><img src="images/JD_selfproduct2.png" alt=""/></a>
+            </div>
+        </section>
+        <section class="jd_product">
+            <div class="jd_product_tit"><h3>京东国际</h3></div>
+            <div class="jd_product_con clearfix">
+                <a class="w_50 b_right f_left" href="#"><img src="images/JD_internal.png" alt=""/></a>
+                <a class="w_50 b_bottom f_right" href="#"><img src="images/JD_internal1.png" alt=""/></a>
+                <a class="w_50 f_right" href="#"><img src="images/JD_internal2.png" alt=""/></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部菜单部分 -->
+    <div class="jd_footer">
+        <li onclick="location.href='index.html'" >
+            <img src="images/JD_footer1.png"  alt=""/>
+            <p>首页</p>
+        </li>
+        <li onclick="location.href='category.html'">
+            <img src="images/JD_footer2.png" alt=""/>
+            <p>分类</p>
+        </li>
+        <li>
+            <img src="images/JD_footer3.png"  alt=""/>
+            <p>逛</p>
+        </li>
+        <li onclick="location.href='cart.html'">
+            <img src="images/JD_footer4.png"  alt=""/>
+            <p>购物车</p>
+        </li>
+        <li onclick="location.href='my.html'">
+            <img src="images/JD_footer5.png"  alt=""/>
+            <p>我的</p>
+        </li>
+    </div>
+<a href=""><img src=""></a>
+</div>
+
+</body>
+</html>

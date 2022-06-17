@@ -1,0 +1,95 @@
+.JD_myMsg{
+	margin:4rem auto;
+}
+.JD_myMsg .pic{
+	width:22rem;
+	margin: 0 auto;
+	display: flex;
+}
+.JD_myMsg .pic a{
+	margin:0 2rem;
+}
+.JD_myMsg .pic a img{
+	width:5.4rem;
+	height:5.4rem;
+	border-radius: 2.7rem;
+}
+.JD_myMsg .pic p{
+	width:7.4rem;
+	margin-bottom: 2.5rem;
+	border-bottom:1px solid #dbdbdb;
+}
+.JD_myMsg p.userName{
+	text-align: center;
+	color: #666;
+}
+.navList{
+	padding:0 1.5rem;
+}
+.navList nav{
+	display: flex;
+	border-bottom:1px solid #333;
+	margin:1rem 0;
+}
+.navList nav a{
+	flex:1;
+	height:2.5rem;
+	line-height:2.5rem;
+	text-align: center;
+}
+.navList .subNav a i.iconfont{
+	font-size: 2.2rem;
+}
+.navList nav a i.iconfont{
+	font-size:1.5rem;
+	margin-right:0.5rem;
+}
+.subNav{
+	display: flex;
+	flex-flow:row wrap;
+	margin-top:2rem;
+}
+.subNav a{
+	flex:1 1 25%;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+
+header{
+	width:100%;
+	height:3.6rem;
+	line-height:3.6rem;
+	color: #ffffff;
+	background: #ff0000;
+	overflow: hidden;
+}
+.list header{
+	border-bottom: 1px solid #dbdbdb;
+}
+header h2{
+	width: 90%;
+	margin:0 auto;
+	text-align: center;
+	font-size:1.2rem;
+	font-weight: normal;
+}
+header > a:nth-child(3){
+	position: absolute;
+	right:1.5rem;
+	top:0rem;
+	width:1.5rem;
+	z-index: 3;
+}
+header > a:nth-child(1){
+	margin-left: 1.5rem;
+}
+header > a:nth-child(3) i.iconfont{
+	font-size: 1.5rem;
+}
+header a i.iconfont{
+	font-size:1.5rem;
+}
+div.kind header a i.iconfont{
+	color:#fff;
+}
